@@ -16,18 +16,18 @@ export default {
                 hotspot: true
             },
         },
+    {
+      name: "bio",
+      title: "Bio",
+      type: "array",
+      of: [
         {
-            name: "bio",
-            title: "Bio",
-            type: "array",
-            of: [
-              {
-                title: "Block",
-                type: "block",
-                styles: [{ title: "Normal", value: "normal" }],
-                lists: [],
-              },
-            ],
-          },
+          title: "Block",
+          type: "block",
+          styles: [{ title: "Normal", value: "normal" }],
+          lists: [],
+        },
+      ],
+    },
     ]
 }
